@@ -1,0 +1,37 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\user> diskpart
+
+Microsoft DiskPart version 10.0.22621.1
+
+Copyright (C) Microsoft Corporation.
+On computer: DESKTOP-IBBQLMK
+
+DISKPART> list volume
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 0     C                NTFS   Partition    476 GB  Healthy    Boot
+  Volume 1                      FAT32  Partition    100 MB  Healthy    System
+  Volume 2                      NTFS   Partition    775 MB  Healthy    Hidden
+  Volume 3         System Rese  NTFS   Partition    579 MB  Healthy
+  Volume 4                      NTFS   Partition    232 GB  Healthy
+
+DISKPART> select volume E
+
+The volume you selected is not valid or does not exist.
+
+There is no volume selected.
+
+DISKPART> select volume 4
+
+Volume 4 is the selected volume.
+
+DISKPART> assign letter = E
+
+DiskPart successfully assigned the drive letter or mount point.
+
+DISKPART>

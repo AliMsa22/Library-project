@@ -1,4 +1,5 @@
 Empowering Your Academic Journey
+
 IUL-CourseFlow, an innovative platform designed to streamline and enhance the management of academic activities within a university. The system provides a comprehensive solution for managing courses, faculties, and student information, fostering an efficient academic environment.
 
 => Steps:

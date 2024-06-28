@@ -10,12 +10,15 @@ IUL-CourseFlow, an innovative platform designed to streamline and enhance the ma
                       pass - amst/123
             Can add/drop faculty
                 add/drop majors
-                edit account info
-                add/delete/edit subject
-                add/delete/edit/download subject materials
+                add/delete/edit subject (can be a common subject with other majors)
+                add/delete/edit/download subject materials (Add specific file type, < 5MB)
                 manage student accounts (Block/Unblock)
+                edit account info
       6.Student login : email -  amst@gmail.com
                         pass - amst/123
             Can download subject materials
                 edit account info
-          
+      7.Student signup : system validate email used and check existence
+                         system check password format
+
+      All error/success is handled with alert/message to indicate status for users.
